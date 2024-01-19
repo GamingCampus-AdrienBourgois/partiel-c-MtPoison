@@ -40,12 +40,6 @@ float Solution2::GetBalance(const std::string& accountName)
             {
                 solde -= montant;
             }
-            else {
-                std::cout << "Opération non reconnue : " << operation << std::endl;
-            }
-        }
-        else {
-            std::cout << "Erreur de lecture de la ligne : " << ligne << std::endl;
         }
     }
 	return solde;
