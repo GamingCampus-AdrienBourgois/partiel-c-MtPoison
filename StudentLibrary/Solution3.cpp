@@ -13,7 +13,7 @@ void Solution3::SortWords() {}
 
 std::vector<std::string> Solution3::GetSortedWords() const
 {
-	std::sort(words.begin(), words.end());
+	//std::sort(words.begin(), words.end());
 	return words;
 }
 
