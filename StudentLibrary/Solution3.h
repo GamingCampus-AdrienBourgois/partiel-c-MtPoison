@@ -3,9 +3,9 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-
 #include "StudentConfiguration.h"
 // Don't forget to enable the exercise in the SudentConfiguration.h file !
+#ifdef COMPILE_EXERCICE_3
 
 class Solution3 // Alphabetical Word Sorter
 {
@@ -18,3 +18,4 @@ private:
 	std::vector<std::string> words;
 };
 
+#endif
