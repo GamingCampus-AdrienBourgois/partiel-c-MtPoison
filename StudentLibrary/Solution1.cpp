@@ -35,7 +35,7 @@ float Solution1::ConvertTemperature(float _value, TemperatureUnits _from, Temper
 	{
 		Nouvelletemperature = (_value - 32.0) * 5.0 / 9.0 + 273.15;
 	}
-	return -1.0f;
+	return Nouvelletemperature;
 }
 
 #endif
